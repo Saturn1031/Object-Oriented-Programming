@@ -21,16 +21,16 @@ int main()
 	if (cal[i + 1] == '+') {
 		res = atoi(n1) + atoi(n2);
 	}
-	if (cal[i + 1] == '-') {
+	else if (cal[i + 1] == '-') {
 		res = atoi(n1) - atoi(n2);
 	}
-	if (cal[i + 1] == '*') {
+	else if (cal[i + 1] == '*') {
 		res = atoi(n1) * atoi(n2);
 	}
-	if (cal[i + 1] == '/') {
+	else if (cal[i + 1] == '/') {
 		res = atoi(n1) / atoi(n2);
 	}
-	if (cal[i + 1] == '%') {
+	else if (cal[i + 1] == '%') {
 		res = atoi(n1) % atoi(n2);
 	}
 
